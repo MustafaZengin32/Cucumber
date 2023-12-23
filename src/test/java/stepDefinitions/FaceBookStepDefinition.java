@@ -28,4 +28,8 @@ public class FaceBookStepDefinition {
 
     }
 
+    @When("url in {string} oldugunu test eder")
+    public void urlInOldugunuTestEder(String istenenUrl) {
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(istenenUrl));
+    }
 }
