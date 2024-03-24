@@ -1,5 +1,6 @@
 Feature: Amazon Search Testi
 
+
   Scenario: TC01 kullanici searchbox test eder
 
     Given kullanici amazon sayfasina gider
