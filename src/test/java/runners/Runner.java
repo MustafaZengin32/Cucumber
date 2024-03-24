@@ -14,10 +14,10 @@ import org.junit.runner.RunWith;
                 "junit:target/resources/features", //xml rapor
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
-        features = "src/test/resources/features",
-        glue = {"stepDefinitions","hook"},
+        features ="src/test/resources/features",
+        glue ={"stepDefinitions","hook"},
         tags="@Practice",
-        dryRun = false
+        dryRun =false
 
 )
 
