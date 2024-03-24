@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
                 "pretty",//renkli yazdirmak icin //bircok raporlama cesidi var arastir
                 "html:target/cucumber-reports.html",
                 "json:target/json-report/cucumber.json",
-                "junit:target/resources/features" //xml rapor
+                "junit:target/resources/features", //xml rapor
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         features = "src/test/resources/features",
         glue = {"stepDefinitions","hook"},
